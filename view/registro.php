@@ -88,7 +88,7 @@
     </form>
 </div>
 </main>
-<footer class="py-5 bg-dark footer fixed-bottom">
+<footer class="py-5 bg-dark footer">
     <?php
     include_once("footer.php");
     ?>

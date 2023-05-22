@@ -27,12 +27,12 @@
             </thead>
             <tbody>
             <tr>
-                <td>Mar</td>
+                <td><a href="perfil.php">Mar</a></td>
                 <td>150</td>
                 <td>1°</td>
             </tr>
             <tr>
-                <td>Fitti</td>
+                <td><a href="perfil.php">Fitti</a></td>
                 <td>132</td>
                 <td>2°</td>
             </tr>

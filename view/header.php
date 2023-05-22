@@ -7,7 +7,7 @@
         <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="view/registro.php">Registrarse</a>
+                    <a class="nav-link" href="/view/registro.php">Registrarse</a>
                 </li>
             </ul>
             <form class="d-flex">

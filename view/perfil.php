@@ -14,14 +14,15 @@
 </header>
 <main class="py-5">
     <div class="container px-lg-5 p-4 bg-light rounded-3">
-        <h1 class="text-center display-3 fw-bold">¡Bienvenido Fitti!</h1>
+        <img src="/imagenes/perfil.jpg" width="200px" class="rounded mx-auto d-block">
+        <h1 class="text-center display-3 fw-bold">Fitti</h1>
         <h2 class="text-center">Tu puntaje actual: 132</h2>
         <div class="d-grid gap-2 col-6 mx-auto mt-4">
-            <button class="btn btn-primary btn-lg">Nueva partida</button>
-            <a href="ranking.php" class="btn btn-outline-primary btn-lg">Ver clasificación</a>
+            <img src="/imagenes/pais.png" width="30px">
+            <p>La Matanza</p>
         </div>
         <div class="mx-auto">
-                <h3>Partidas jugadas</h3>
+            <h3>Partidas jugadas</h3>
             <table class="table table-striped ">
                 <thead>
                 <tr>
@@ -47,7 +48,7 @@
         </div>
     </div>
 </main>
-<footer class="py-5 bg-dark footer ">
+<footer class="py-5 bg-dark footer">
     <?php
     include_once("footer.php");
     ?>
@@ -55,4 +56,3 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
-
