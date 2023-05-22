@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Registro de usuario</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 <body>
-<div class="container mt-5">
-    <h2 class="text-center display-2">¡Creá tu cuenta y divertite jugando!</h2>
+<header>
+    <?php
+    include_once("header.php");
+    ?>
+</header>
+<main class="py-5">
+    <div class="container px-lg-5 p-4 bg-light rounded-3">
+        <h1 class="text-center display-3 fw-bold">¡Creá tu cuenta y divertite jugando!</h1>
     <br>
     <form action="../controller/registroController.php" method="post" enctype="multipart/form-data" class="row g-3">
 
@@ -53,7 +61,7 @@
 
         <div class="col-md-6">
             <label class="form-label">Nombre de usuario:</label>
-            <input type="text" name="nombre_usuario" class="form-control" required placeholder="¿Cómo quieres ser reconocido dentro del juego?">
+            <input type="text" name="nombre_usuario" class="form-control" required placeholder="¿Cómo querés ser reconocido dentro del juego?">
         </div>
 
         <div class="col-md-6">
@@ -73,13 +81,18 @@
 
         <div class="col-12">
             <div class="d-flex justify-content-between">
-                <a href="lobby.php" class="btn btn-outline-primary btn-lg">Volver a inicio</a>
+                <a href="../index.php" class="btn btn-outline-primary btn-lg">Volver a inicio</a>
                 <input type="submit" value="Registrarse" class="btn btn-primary btn-lg">
             </div>
         </div>
-
     </form>
 </div>
+</main>
+<footer class="py-5 bg-dark footer fixed-bottom">
+    <?php
+    include_once("footer.php");
+    ?>
+</footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
